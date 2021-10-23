@@ -13,10 +13,14 @@ export default function Home() {
       <main>
         <Header title="Login page!" />
         <p className="description">
-         <input type="text" name="name" required/>
-         <input type="text" name="pass" required/>
-        </p>
-        <input type="submit" name="name" value="Sava"/>
+          <p>
+            <input type="text" name="name" required/>
+          </p>
+          <p>
+            <input type="text" name="pass" required/>
+          </p>
+         </p>
+        <input type="submit" name="sub" value="Save"/>
       </main>
 
       <Footer />
