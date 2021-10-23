@@ -11,10 +11,12 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to my app!" />
+        <Header title="Login page!" />
         <p className="description">
-          Get started by editing <code>pages/index.js</code>
+         <input type="text" name="name" required/>
+         <input type="text" name="pass" required/>
         </p>
+        <input type="submit" name="name" value="Sava"/>
       </main>
 
       <Footer />
