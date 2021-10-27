@@ -1,65 +1,9 @@
+
+
 export default function Vis() {
   return (
     <>
-     <head>
-	<meta charset="utf-8">
-	<title>Audio</title>
-	<style type="text/css">
-	*
-	{
-		margin :0;
-		padding: 20px;
-		box-sizing: border-box;
-	}
-	#contain{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		background-image: url('index.jpeg');
-		background-attachment: fixed;
-		background-repeat: no-repeat;
-		background-position: center;
-		background-size: cover;
-		padding: 10px;
-	}
-	#cl{
-		position: absolute;
-		width: 100px;
-		height: 50px;
-		color: #981;
-		margin-left: 250px;
-		display: none;
-	}
-
-	#Aux{
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-	}
-	#aud{
-		width: 200px;
-		margin-top: 30px auto;
-		padding: 50px;
-		display: block;
-		position: absolute;
-		color: green;
-	}
-	#upload{
-		position: absolute;
-		top: 150px;
-		z-index: 100;
-		margin-top: -80px;
-		color: #FF6712;
-	}
-	</style>
-</head>
-<body>
-	
-
+	<body>
 	<div id="contain">
 
 		<h1>AUDIO VIS</h1>
@@ -130,12 +74,8 @@ export default function Vis() {
 
 
 	});
-
-
-
-
-
 </script>
+	</body>
     </>
   )
 }
