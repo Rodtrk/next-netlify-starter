@@ -18,21 +18,11 @@ aud.addEventListener("click", function(){
 });
 
 
-function playandpuse()
-{
-	if( audio.play() )
-	{
-		audio.pause();
-	}
-	else
-	{
-		audio.play();
-	}
-}
+
 
 cont.addEventListener("click", function(){
-	//audio.play();
-	playandpuse();
+	audio.play();
+	//playandpuse();
 	
 	audioS = audioContext.createMediaElementSource(audio);
 	analy = audioContext.createAnalyser();
