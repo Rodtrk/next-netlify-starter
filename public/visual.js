@@ -23,12 +23,10 @@ function playandpuse()
 	if( audio.play() )
 	{
 		audio.pause();
-		document.body.innerHTML = "Pause";
 	}
 	else
 	{
 		audio.play();
-		document.body.innerHTML = "PLay()";
 	}
 }
 
