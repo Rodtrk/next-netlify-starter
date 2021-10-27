@@ -8,8 +8,7 @@
   }
 }
 
-async Headers(){
-  return [
+{
     {
       source : "/(.*)",
       headers :
@@ -17,5 +16,5 @@ async Headers(){
         key : "X-Content-Type-Options",
         value : "nosniff"
       }
-  ]
+
 }
