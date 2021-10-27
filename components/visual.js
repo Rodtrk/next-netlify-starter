@@ -31,8 +31,9 @@ function playandpuse()
 	}
 }
 
-cont.addEventListener("[king]", function(){
+cont.addEventListener("click", function(){
 	//audio.play();
+	cont.innerHTML = "PLAY";
 	playandpuse();
 	
 	audioS = audioContext.createMediaElementSource(audio);
