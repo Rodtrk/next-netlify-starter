@@ -12,10 +12,12 @@ const ctx  = can.getContext('2d');
 let audioS;
 let analy;
 aud.addEventListener("click", function(){
-	audio.play();
+	//audio.play();
 	cont.innerHTML = "HELLO";
 });
 cont.addEventListener("click", function(){
+	audio.play();
+	
 	if( audio.play() )
 	{
 		audio.pause();
