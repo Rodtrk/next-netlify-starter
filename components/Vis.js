@@ -1,9 +1,9 @@
 
-
+import styles from './Vis.css'
 export default function Vis() {
   return (
     <>
-	<body>
+	<body className="{style.Vis"}>
 	<div id="contain">
 
 		<h1>AUDIO VIS</h1>
