@@ -11,19 +11,30 @@ can.height = window.innerHeight;
 const ctx  = can.getContext('2d');
 let audioS;
 let analy;
+
 aud.addEventListener("click", function(){
 	//audio.play();
 	cont.innerHTML = "HELLO";
 });
-cont.addEventListener("click", function(){
-	audio.play();
-	
+
+
+function playandpuse()
+{
 	if( audio.play() )
 	{
 		audio.pause();
+		document.body.innerHTML = "Pause";
 	}
 	else
+	{
 		audio.play();
+		document.body.innerHTML = "PLay()";
+	}
+}
+
+cont.addEventListener("click", function(){
+	//audio.play();
+	playandpuse();
 	
 	audioS = audioContext.createMediaElementSource(audio);
 	analy = audioContext.createAnalyser();
