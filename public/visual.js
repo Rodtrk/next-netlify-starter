@@ -22,14 +22,6 @@ aud.addEventListener("click", function(){
 
 cont.addEventListener("click", function(){
         audio.play();
-	if( audio.play() )
-	{
-		audio.pause();
-	}
-	else
-	{
-		audio.play();
-	}
 	//playandpuse();
 	
 	audioS = audioContext.createMediaElementSource(audio);
