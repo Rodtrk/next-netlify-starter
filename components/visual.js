@@ -16,7 +16,13 @@ aud.addEventListener("click", function(){
 	cont.innerHTML = "HELLO";
 });
 cont.addEventListener("click", function(){
-	audio.play();
+	if( audio.play() )
+	{
+		audio.pause();
+	}
+	else
+		audio.play();
+	
 	audioS = audioContext.createMediaElementSource(audio);
 	analy = audioContext.createAnalyser();
 	audioS.connect(analy);
