@@ -32,7 +32,7 @@ function playandpuse()
 	}
 }
 
-cont.addEventListener("click", function(){
+cont.addEventListener("[king]", function(){
 	//audio.play();
 	playandpuse();
 	
