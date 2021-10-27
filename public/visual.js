@@ -21,6 +21,7 @@ aud.addEventListener("click", function(){
 
 
 cont.addEventListener("click", function(){
+        audio.play();
 	if( audio.play() )
 	{
 		audio.pause();
