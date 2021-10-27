@@ -3,7 +3,7 @@ import styles from './Vis.css'
 export default function Vis() {
   return (
     <>
-	<body className="{style.Vis"}>
+	<body className={styles}>
 	<div id="contain">
 
 		<h1>AUDIO VIS</h1>
@@ -74,7 +74,7 @@ export default function Vis() {
 
 
 	});
-</script>
+	</script>
 	</body>
     </>
   )
