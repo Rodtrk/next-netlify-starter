@@ -22,8 +22,9 @@ export default function Home() {
          </p>
         <input type="submit" name="sub" value="Save"/>
       </main>
+    
 
-
+      <Vis />
       <Footer />
     </div>
   )
