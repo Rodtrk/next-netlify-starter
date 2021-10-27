@@ -8,7 +8,7 @@
   }
 }
 
-async Header(){
+async Headers(){
   return [
     {
       source : "/(.*)",
