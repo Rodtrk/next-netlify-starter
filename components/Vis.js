@@ -1,5 +1,5 @@
 
-import styles from './Vis.css'
+
 export default function Vis() {
   return (
     <>
