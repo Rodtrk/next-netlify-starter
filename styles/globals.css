@@ -87,5 +87,13 @@ code {
 		margin-top: -80px;
 		color: #FF6712;
 }
-
+h1{
+	position: absolute;
+	text-align: center;
+	left: 50%;
+	top: 20%;
+	margin-top: 10px;
+	transform: translate(-50% , -50%);
+	color : #434FF7;
+}
 
