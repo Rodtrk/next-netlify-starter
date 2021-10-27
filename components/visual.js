@@ -1,5 +1,5 @@
 let audio  = new Audio();
-audio.src  = './coseeye.mp3'; //musiz rename
+audio.src  = './closeeye.mp3'; //musiz rename
 const audioContext = new AudioContext();
 const cont = document.getElementById('contain');
 const butt = document.getElementById('cl');
@@ -23,12 +23,11 @@ function playandpuse()
 	if( audio.play() )
 	{
 		audio.pause();
-		document.body.innerHTML = "Pause";
+		
 	}
 	else
 	{
 		audio.play();
-		document.body.innerHTML = "PLay()";
 	}
 }
 
