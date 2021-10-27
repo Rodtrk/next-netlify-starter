@@ -5,7 +5,7 @@ export default function Vis() {
 	  <>
  	  <div id="contain">
 
-		<h1>AUDIO VIS</h1>
+		<h1>TREMEKI HEH SIM</h1>
 		<button id="cl">Start</button>
 		<canvas id="Aux"></canvas>
 		<audio id="aud" controls></audio>
