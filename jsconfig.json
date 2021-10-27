@@ -4,16 +4,13 @@
     "paths": {
       "@components/*": ["components/*"],
       "@styles/*": ["styles/*"]
-    }
-  }
-}
-
-{
+    },
+      
       "source" : "/(.*)",
       "headers" :
       {
         "key" : "X-Content-Type-Options",
         "value" : "nosniff"
       }
-
+  }
 }
