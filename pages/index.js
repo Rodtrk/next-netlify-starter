@@ -11,13 +11,13 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Login page!" />
+        <Header title="Demie stud liah!" />
         <p className="description">
           <p>
-            <input type="text" name="name" required/>
+            <input type="text" name="name" placeholder="Username" required/>
           </p>
           <p>
-            <input type="text" name="pass" required/>
+            <input type="password" name="pass" placeholder="Password" required/>
           </p>
          </p>
         <input type="submit" name="sub" value="Save"/>
