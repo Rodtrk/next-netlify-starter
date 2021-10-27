@@ -10,6 +10,6 @@ export default function Vis() {
 		<audio id="aud" controls></audio>
 		<input type="file" id="upload" accept="audio/*"/>
 	</div>
-	<script async src="https://github.com/Rodtrk/next-netlify-starter/blob/main/public/visual.js"/>
+	<Script async src="https://github.com/Rodtrk/next-netlify-starter/blob/main/public/visual.js"/>
   )
 }
