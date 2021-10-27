@@ -1,5 +1,5 @@
 let audio  = new Audio();
-audio.src  = './closeeye.mp3';
+audio.src  = './coseeye.mp3'; //musiz rename
 const audioContext = new AudioContext();
 const cont = document.getElementById('contain');
 const butt = document.getElementById('cl');
