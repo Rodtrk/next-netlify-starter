@@ -55,7 +55,7 @@ cont.addEventListener("click", function(){
 			ctx.fillStyle = "white";
 			ctx.strokeStyle = getRandomColour() ;
 				//ctx.fillRect(x ,can.height - barHeight, 10 , barHeight);
-			ctx.strokeRect(x, can.height - barHeight , 19 , barHeight);
+			ctx.strokeRect(x, can.height - barHeight , 5 , barHeight);
 			ctx.fill();
 			x+= barW;
 		}
