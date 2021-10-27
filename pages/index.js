@@ -11,7 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Just ah stud liah!" />
+        <Header title="LOGIN!" />
         <p className="description">
           <p>
             <input type="text" name="name" placeholder="Username" required/>
@@ -22,10 +22,7 @@ export default function Home() {
          </p>
         <input type="submit" name="sub" value="Save"/>
       </main>
-    
-
       <Vis />
-      <Footer />
     </div>
   )
 }
