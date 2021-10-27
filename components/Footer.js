@@ -5,6 +5,7 @@ export default function Footer() {
     <>
       <footer className={styles.footer}>
         Made with <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} /> for you
+        <a href="{Vis.js}" >click </a>
       </footer>
     </>
   )
