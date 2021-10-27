@@ -24,7 +24,7 @@ export default function Home() {
       </main>
 
 
-      <Vis />
+      <Footer />
     </div>
   )
 }
