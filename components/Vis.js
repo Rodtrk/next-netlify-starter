@@ -5,7 +5,7 @@ export default function Vis() {
 	  <>
  	  <div id="contain">
 		<h1>[-About Me-]</h1>
-                <p style="color: #686478;">Zhyll@</p> 
+                <p>Zhyll@</p> 
 		<button id="cl">Start</button>
                 <p><b>Magic</b> is believing in yourself</p>
 		<canvas id="Aux"></canvas>
