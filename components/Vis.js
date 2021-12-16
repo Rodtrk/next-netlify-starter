@@ -5,9 +5,9 @@ export default function Vis() {
 	  <>
  	  <div id="contain">
 		<h1>[-About Me-]</h1>
-                <p>Zhyll@</p> 
+                <p class="2">Zhyll@</p> 
 		<button id="cl">Start</button>
-                <p><b>Magic</b> is believing in yourself</p>
+                <p class="1"><b>Magic</b> is believing in yourself</p>
 		<canvas id="Aux"></canvas>
 		<audio id="aud" controls></audio>
 		<input type="file" id="upload" accept="audio/*"/>
