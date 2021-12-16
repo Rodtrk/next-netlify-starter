@@ -13,6 +13,6 @@ export default function Vis() {
 		<input type="file" id="upload" accept="audio/*"/>
 	  </div>
 	  <Script async type="text/javascript" src="./visual.js"/>
-	  </>
+	  </Footer>
   )
 }
