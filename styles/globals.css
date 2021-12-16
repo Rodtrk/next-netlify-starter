@@ -10,7 +10,10 @@ body {
 * {
   box-sizing: border-box;
 }
-
+b {
+  font-size : 20px; color : #455666;
+  box-shadow : 0px 5px 6px #798557;
+}
 main {
   padding: 5rem 0;
   flex: 1;
