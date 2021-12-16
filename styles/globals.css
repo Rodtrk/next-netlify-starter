@@ -10,6 +10,7 @@ body {
 * {
   box-sizing: border-box;
 }
+
 b {
   font-size : 20px; color : #455666;
   box-shadow : 0px 5px 6px #798557;
@@ -21,6 +22,13 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+p {
+   color : #783673;
+}
+h1 {
+  text-align : center ;
+  background : #5253;
 }
 
 code {
