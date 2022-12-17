@@ -7,7 +7,7 @@ const aud  = document.getElementById('aud');
 const can  = document.getElementById("Aux");
 can.width  = window.innerWidth;
 can.height = window.innerHeight;
-
+let isplay = false;
 const ctx  = can.getContext('2d');
 let audioS;
 let analy;
@@ -21,7 +21,15 @@ aud.addEventListener("click", function(){
 
 
 cont.addEventListener("click", function(){
-        audio.play();
+	if ( audio.paused ){
+		
+        	audio.play();
+		isplay = true;
+	}
+	else{
+		audio.pause();
+		isplay= false;
+	}
 	//playandpuse();
 	
 	audioS = audioContext.createMediaElementSource(audio);
